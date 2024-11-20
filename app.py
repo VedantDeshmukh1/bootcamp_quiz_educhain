@@ -56,7 +56,7 @@ Ensure questions align with learning objectives such as understanding chatbots, 
     with col1:
         # Text input area
         text_input = st.text_area(
-            "Paste your text here:",
+            "Paste your text here: or enter (Transcription of a Video)",
             height=300,
             placeholder="Enter the text from which you want to generate questions...(transcript)"
         )
